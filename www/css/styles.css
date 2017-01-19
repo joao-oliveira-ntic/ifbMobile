@@ -1,0 +1,234 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.header-contrast{
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 3px;
+}
+
+.content-block-title{
+	font-size: 0.8em;
+	white-space: normal;
+	line-height: 1.2em;
+	color: #101010;
+	font-weight: bold;
+}
+
+.list-block .accordion-item  ul{
+	list-style: circle;
+	margin: 10px;
+}
+
+
+.list-block .accordion-item .content-block, .list-block .accordion-item .list-block {
+	margin-bottom:10px;
+}
+
+.list-block .item-title{
+	white-space: normal;
+}
+
+#lista_accordion{
+	list-style: circle;
+	padding-left: 20px;
+	line-height: 1.5em;
+	padding-right: 20px;
+
+}
+
+
+#lista_accordion li{
+	line-height: 1.5em;
+
+}
+
+
+.message .message-text{
+	font-size: 0.9em;
+
+
+
+}
+
+.centro-50{
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
+
+
+.tabelas{
+	border:0;
+	text-align: left;
+	width: 100%;
+	margin: auto;
+}
+
+.tabelas tr:nth-child(even){
+	background-color: #CCCCCC;
+}
+
+#faq{
+	font-size: 1.0em;
+	text-align: center;
+	overflow: visible;
+}
+
+
+#pergunta{
+	font-size: 1.0em;
+	color: #101010;
+	overflow: visible;
+}
+
+
+.item-title{
+	font-size:0.8em;
+}
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+.panel-left{
+	background-color: #DDDDDD;
+
+}
+
+#img-principal{
+	width: 100%;
+
+}
+
+#img-menu{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.manual{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 90%;
+	border: 5px;
+	border-color: #000000;
+
+}
+
+
+#menuLateral li{
+	list-style: none;
+
+}
+
+
+#menuLateral{
+	width: 100%;
+}
+
+.botaoCentro1{
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-right: 20%;
+	margin-left: 20%;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.botaoCentral{
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-radius: 15px;
+}
+
+.phones{
+	position: absolute;
+	right: 15%;
+	top: 20%;
+}
+
+.mails{
+	position: absolute;
+	right: 5%;	
+}
+
+
+.swiper-container {
+  height: 100%;
+}
+.swiper-slide {
+  background:#fff;
+}
+.swiper-slide span {
+  text-align:center;
+  display:block;
+  margin:20px;
+  font-size:21px;
+}
+
+
+.card{
+	padding: 5px;
+}
+
+.facebook-card .card-header {
+	display: block;
+	padding: 10px;
+	height: 70px;
+
+
+}
+.facebook-card .facebook-avatar {
+float: left;
+}
+
+.facebook-card .facebook-name {
+margin-left: 60px;
+font-size: 14px;
+font-weight: 500;
+}
+.facebook-card .facebook-date {
+margin-left: 60px;
+font-size: 13px;
+color: #8e8e93;
+}
+.facebook-card .card-footer {
+background: #fafafa;
+}
+.facebook-card .card-footer a {
+color: #81848b;
+font-weight: 500;
+}
+.facebook-card .card-content img {
+display: block;
+}
+
+.facebook-card .card-content-inner {
+padding: 15px 10px;
+}  
+
+#curtir img{
+	width: 40px;
+	height: 40px;
+}
+
+.demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+.size-50 { font-size: 50px; }
+.size-25 { font-size: 25px; }

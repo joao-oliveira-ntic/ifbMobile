@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ifb.ifbMobile" version="1.0.0" versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>ifbMobile</name>
+    <description>
+        O aplicativo IFB mobile tem por objetivo ...
+    </description>
+    <author email="joao.oliveira@ifb.edu.br" href="http://ifb.edu.br">
+        João Victor de Araujo Oliveira
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="https://1336992.github.io/qrcode/mapa/" />
+    <allow-navigation href="https://sga.ifb.edu.br" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>

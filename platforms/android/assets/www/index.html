@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+   
+   <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com https://1336992.github.io/qrcode/mapa/ 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *"> 
+
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    
+
+    <!-- Your app title -->
+    <title>IFB Mobile</title>
+
+    <!-- This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
+        http://www.idangero.us/framework7/tutorials/maintain-both-ios-and-material-themes-in-single-app.html
+     -->
+
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <link rel="stylesheet" href="css/ionicons.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+
+</head>
+
+<body class="theme-red">
+    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+        
+        <div class="content-block">
+        IFB Mobile
+        </div>
+        <div class="content-block-title">Menu</div>
+        <div id= "menuLateral" class="list-block">
+                <ul>
+                <li>
+                  <a id = "index"  href="index.html" class="item-link item-content">
+                    <div class="item-media"><i class="icon ion-home size-25"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Início</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a  id="sga"  href="#" class="item-link item-content">
+                    <div class="item-media"><i class="icon ion-university size-25"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">SGA</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a  href="msg_reitor.html" class="item-link item-content">
+                    <div class="item-media"><i class="icon ion-email-unread size-25"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Mensagem do Reitor</div>
+                      
+                    </div>
+                  </a>
+                </li>
+
+                
+                </ul>
+        </div>
+      
+
+        <div class="content-block-title">Conheça o IFB</div>
+        <div id= "menuLateral" class="list-block">
+                <ul>
+
+                <li>
+                  <a href="historico.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Histórico</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="reitoria.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Reitoria</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a  href="campi.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Campi e Cursos</div>
+                      
+                    </div>
+                  </a>
+                </li>
+
+                </ul>
+        </div>
+
+          <div class="content-block-title">Espaço do Aluno</div>
+        <div id= "menuLateral" class="list-block">
+                <ul>
+
+                <li>
+                  <a href="assistencia.html.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Assistência Estudantil</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="biblioteca.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Biblioteca</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="calendario.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Calendário</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="manual.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Manual do Aluno</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="estagio.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Estágio</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="registro-academico.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Registro Acadêmico</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="faq.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Perguntas Frequentes</div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="plano-de-cursos.html" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons icon"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title">Plano de cursos</div>
+                      
+                    </div>
+                  </a>
+                </li>
+
+                </ul>
+        </div>
+
+
+    </div>
+
+
+    <!-- Views -->
+    <div class="views">
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Top Navbar-->
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+                    <div class="center sliding">IFB Mobile</div>
+                    
+                </div>
+            </div>
+            <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+            <div class="pages navbar-through toolbar-through">
+                <!-- Page, "data-page" contains page name -->
+                <div data-page="index" class="page">
+                    <!-- Scrollable page content -->
+        
+                    <div class="page-content">
+                        
+                           
+                         <img id="img-principal" src="./images/aluno.png"> 
+
+                        <div  class = "content-block">
+
+                        <div class="row">
+                            <div class="col-25"><a href="assistencia.html"><img id="img-menu" src="./images/assistenciaestudantil.png"></a> </div>
+                            <div class="col-25"><a href="biblioteca.html"><img id="img-menu" src="./images/biblioteca.png"></a> </div>
+                            <div class="col-25"><a href="calendario.html"><img id="img-menu" src="./images/calendario.png"></a></div>
+                            <div class="col-25"><a href="manual.html"><img id="img-menu" src="./images/manualdoaluno.png"></a> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25"><a href="estagio.html"><img id="img-menu" src="./images/estagio.png"></a></div>
+                            <div class="col-25"><a href="registro-academico.html"><img id="img-menu" src="./images/registro.png"></a></div>
+                            <div class="col-25"><a href="faq.html"><img id="img-menu" src="./images/perguntas.png"></a></div>
+                            <div class="col-25"><a href="plano-de-cursos.html"><img id="img-menu" src="./images/planodecursos.png"></a></div>
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Toolbar-->
+            <div class="toolbar">
+                <div class="toolbar-inner">
+                    <!-- Toolbar links -->
+                    <a href="#" class="link icon-only open-panel"><i class="icon ion-navicon-round size-25"></i></a>
+                    <a href="index.html" class="link icon-only"><i class="icon ion-home size-25"></i></a>
+                    <a id="ext-mapa" href="#"  class="link icon-only "><i class="icon ion-ios-location size-25"></i></a>
+                    <a id ="sga1" href="https://sga.ifb.edu.br/autenticacao/usuarios/sign_in" class="link icon-only"><i class="icon ion-university size-25"></i></a>
+                     <a href="about.html" class="link icon-only"><i class="icon ion-information-circled size-25"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+    
+
+</html>
